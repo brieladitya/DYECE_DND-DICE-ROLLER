@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYECE - D&D Dice Roller</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="home-page">
+    <section class="hero-header">
+        <div class="hero-text-2">
+            <h1>DYECE</h1>
+            <p>D&D Dice Roller</p>
+        </div>
+        <div class="hero-tutor">
+            <h3>How to Roll</h3>
+            <ol>
+                <li>Select the dice you want to roll.</li>
+                <li>Click the dice as many times as needed (e.g., click twice if you need 2 dice).</li>
+                <li>Add more dice if necessary.</li>
+                <li>Press the Run button to roll (Tip: click a dice in the output area to remove it).</li>
+            </ol>
+        </div>
+    </section>
+    <section class="hero-process">
+        <div class="container">
+            <ul class="dice-list">
+                <li data-dice="D4">D4</li>
+                <li data-dice="D6">D6</li>
+                <li data-dice="D8">D8</li>
+                <li data-dice="D10">D10</li>
+                <li data-dice="D12">D12</li>
+                <li data-dice="D20">D20</li>
+                <li data-dice="D%">D%</li>
+            </ul>
+            <div class="dice-field">
+                <div class="field">
+                
+                </div>
+            <button class="run-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="#AC895D"><path fill="none" stroke="#AC895D" stroke-width="2" d="m3 22l18-10L3 2z"/></svg>
+            </button>
+            <button class="reset-btn"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 512 512" fill="#AC895D"><path fill="#AC895D" fill-rule="evenodd" d="M426.667 106.667v42.666L358 149.33c36.077 31.659 58.188 77.991 58.146 128.474c-.065 78.179-53.242 146.318-129.062 165.376s-154.896-15.838-191.92-84.695C58.141 289.63 72.637 204.42 130.347 151.68a85.33 85.33 0 0 0 33.28 30.507a124.59 124.59 0 0 0-46.294 97.066c1.05 69.942 58.051 126.088 128 126.08c64.072 1.056 118.71-46.195 126.906-109.749c6.124-47.483-15.135-92.74-52.236-118.947L320 256h-42.667V106.667zM202.667 64c23.564 0 42.666 19.103 42.666 42.667s-19.102 42.666-42.666 42.666S160 130.231 160 106.667S179.103 64 202.667 64"/></svg></button>
+            </div>
+
+            <div class="dice-result">
+                <div class="dice-total">
+                    <div class="result-bg">
+                        <h3>Result</h3>
+                    </div>
+                    <div class="output-result">
+                        
+                    </div>
+                    
+                </div>
+                <div class="dice-hasil">
+                    <div class="hasil-bg">
+                        <h3>Total</h3>
+                    </div>
+                    <div class="output-total">
+
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <script src="script/dice.js"></script>
+    
+</body>
+</html>
