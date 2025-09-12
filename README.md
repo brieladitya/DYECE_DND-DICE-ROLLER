@@ -9,6 +9,8 @@ It allows users to simulate dice rolls digitally, making it a handy tool for tab
 - 🎨 Clean UI Design – Minimalist and easy-to-use interface with custom fonts.
 - 🐉 Game-Ready for D&D – Can act as a digital dice bag for RPG campaigns.
 
+click to see the demo! https://brieladitya.github.io/DYECE_DND-DICE-ROLLER/
+
 This project is a **personal showcase** and not open-source.  
 Feel free to explore the demo and design, but the source code is **not licensed for free use**.
 
