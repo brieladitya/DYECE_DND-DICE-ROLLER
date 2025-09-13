@@ -76,3 +76,5 @@ resetBtn.addEventListener('click', () => {
   outputResult.textContent = "";
   outputTotal.textContent = "";
 });
+
+

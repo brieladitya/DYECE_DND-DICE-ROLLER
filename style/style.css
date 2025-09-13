@@ -11,7 +11,21 @@ body {
   background: url("../img/Frame 1.png") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #AC895D;
+  background-color: black;
+}
+
+#particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+.hero-header, .hero-process {
+  position: relative;
+  z-index: 1;
 }
 
 /* hero */
@@ -259,9 +273,11 @@ body {
   .btn-index { font-size: 18px; padding: 6px 25px; }
   .hero-header { flex-direction: column; gap: 10px; min-height: auto; }
   .container { max-width: 95%; }
-  .dice-list li { padding: 16px; }
+  .dice-list {flex-wrap: wrap;}
+  .dice-list li { padding: 12px 19px;}
   .dice-field { gap: 10px; }
-  .field { width: 100%; }
+  .result-bg, .hasil-bg { width: 100px;}
+  .field { width: 100%; flex-wrap: wrap;}
   .dice-result { flex-direction: column; gap: 15px; }
 }
 
