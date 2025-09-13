@@ -14,6 +14,13 @@ body {
   background-color: black;
 }
 
+@font-face {
+    font-family: 'Drughard';
+    src: url('../fonts/Drughard-Regular.woff2') format('woff2'),
+         url('../fonts/Drughard-Regular.ttf') format('ttf');
+    
+}
+
 #particles {
   position: fixed;
   top: 0;
